@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff; /* Add white background for overall cleanliness */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #f8713a; /* Orange heading */
+  }
+  
+  .sucursal {
+    margin-bottom: 40px;
+    background-color: #f0f0f0; /* White background for each branch box */
+    border: 5px solid #f16c38ef; /* Orange border around each branch box */
+    padding: 20px; /* Add some padding within the boxes */
+    border-radius: 5px; /* Slight rounded corners for a softer look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .sucursal h2 {
+    color: #f8713a; /* Orange branch titles */
+  }
+ 
+
+.MuiDivider-root {
+    border: none;
+    height: 1px;
+    margin: 0;
+    flex-shrink: 0;
+    background-color:  #f8713a;
+    
+}
+  
+  .mapa {
+  /* Adjust height as needed */
+  height: 300px;
+  
+
+  /* Google Maps iframe styling */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for a softer look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+
+  /* Optional styling within the map iframe (requires advanced customization) */
+  iframe {
+    border: none; /* Remove iframe border if needed */
+  }
+}
+
+  
